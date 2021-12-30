@@ -42,6 +42,6 @@ def main(event, context):
         )
       response = request.execute()
     except HttpError as err:
-        logging.error("Could NOT run backup. Reason: {}".format(err))
+        logging.error("O backup não pode ser executado. Motivo: {}".format(err))
     else:
-      logging.info("Backup task status: {}".format(response))
+      logging.info("Status do backup: {}".format(response))

@@ -1,0 +1,1 @@
+{"db":"<DB>","instance":"<Instancia_SQL>","project":"<Projeto_GCP>","gs":"gs://<Bucket>"}
